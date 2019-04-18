@@ -38,11 +38,6 @@ import re
 from xlxmlrd import xlxmlrd as xlrd
 import xlwt
 
-
-def main():
-	path = os.path.join('..', 'ITT EXCEL-test')
-	do(path, "results.xls")
-
 def do(source_path, destination_file, name_col=1, val_col=2):
 	row_offset = 7
 	# name_col = 1
