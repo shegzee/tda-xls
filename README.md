@@ -5,4 +5,16 @@ Since the 'Excel to PDF Converter' used does not use the actual xls format, but 
 
 You'll see a lot of hacky stuff here, but this entire project is a hack, anyway; so, just enjoy it!
 
+Example usage:
+
+Basic usage
+```
+py xml_trans.py -source_path "..\\Real xls" -destination_file "RHM_Real"
+```
+
+To compile values in percentage column
+```
+py xml_trans.py -source_path "..\\Raheemah\\Fortified xls" -destination_file "RHM_Fortified_Percentage.xls" -value_column 3
+```
+
 Olusegun Ojo
