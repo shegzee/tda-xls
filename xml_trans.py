@@ -1,12 +1,12 @@
 # Use like this:
-# C:\Users\Taiwo\Documents\Olusegun\work\xslx\code>workon xsltrans
-# (xsltrans) C:\Users\Taiwo\Documents\Olusegun\work\xslx\code>python xml_trans.py help
+# [path]>workon xsltrans
+# (xsltrans) [path]>python xml_trans.py help
 # usage: xml_trans.py [-h] [-source_path SOURCE_PATH]
 #                     [-destination_file DESTINATION_FILE]
 #                     [-name_column NAME_COLUMN] [-value_column VALUE_COLUMN]
 # xml_trans.py: error: unrecognized arguments: help
 
-# (xsltrans) C:\Users\Taiwo\Documents\Olusegun\work\xslx\code>python xml_trans.py -h
+# (xsltrans) [path]>python xml_trans.py -h
 # usage: xml_trans.py [-h] [-source_path SOURCE_PATH]
 #                     [-destination_file DESTINATION_FILE]
 #                     [-name_column NAME_COLUMN] [-value_column VALUE_COLUMN]
@@ -24,7 +24,7 @@
 #   -value_column VALUE_COLUMN
 #                         Column of nutrient values
 
-# (xsltrans) C:\Users\Taiwo\Documents\Olusegun\work\xslx\code>python xml_trans.py -source_path "..\ui excel" -destination_file "uiresults.xls"
+# (xsltrans) [path]>python xml_trans.py -source_path "..\ui excel" -destination_file "uiresults.xls"
 
 # workon xsltrans
 # py xml_trans.py -source_path "..\\Fortified xls" -destination_file "RHM_Fortified.xls"
